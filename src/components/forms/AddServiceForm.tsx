@@ -4,7 +4,7 @@ import { Button, Form, Input } from "antd";
 import React from "react";
 
 interface Props {
-  onClose: (data: any) => void;
+  onClose: () => void;
 }
 
 const AddServiceForm = ({ onClose }: Props) => {
