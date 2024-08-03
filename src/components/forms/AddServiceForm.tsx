@@ -10,6 +10,7 @@ interface Props {
 const AddServiceForm = ({ onClose }: Props) => {
   const handleClick = (vals: any) => {
     console.log(vals);
+    onClose()
   };
 
   return (
